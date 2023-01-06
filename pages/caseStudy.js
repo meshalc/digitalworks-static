@@ -24,25 +24,7 @@ export default function Home() {
               </a>
             </div>
             <div className={styles.caption}>
-              <h1>
-                Making Digital <br /> Transformation Work
-              </h1>
-              <a href="tel:+971 54 461 5700">GET IN TOUCH</a>
-              <div className={styles.socialMobile}>
-              {/* <div className={styles.followUs}>
-                Follow us:
-              </div> */}
-              <div className={styles.socialIcon}>
-                <a href="https://twitter.com/ansar_abd">
-                  <img src="twitter.svg"></img>
-                </a>
-              </div>
-              <div className={styles.socialIcon}>
-                <a href="https://www.linkedin.com/mwlite/company/digitalworks-group">
-                  <img src="linkedin.svg"></img>
-                </a>
-              </div>
-            </div>
+          
             </div>
             <div className={styles.social}>
               <div className={styles.socialIcon}>
@@ -92,7 +74,9 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className={styles.animation}></div>
+            <div className={styles.animation}>
+              
+            </div>
             <div className={styles.footer}>
               All rights reserved © Digitalworks.co
             </div>

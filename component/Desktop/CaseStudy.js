@@ -63,7 +63,7 @@ export default function CaseStudy() {
           <div className={styles.nav}>
             <div className={styles.navItems}>
               {" "}
-              <div className={styles.active}>
+              <div>
                 <a href="/">Home</a>
               </div>
               <div>
@@ -72,7 +72,7 @@ export default function CaseStudy() {
               <div>
                 <a href="/">Our Team</a>
               </div>
-              <div>
+              <div className={styles.active}>
                 <a href="/">Case Study</a>
               </div>
             </div>

@@ -47,7 +47,7 @@ export default function HomeMain() {
                 <a href="/">Our Team</a>
               </div>
               <div>
-                <a href="/">Case Study</a>
+                <a href="/caseStudy">Case Study</a>
               </div>
             </div>
           </div>

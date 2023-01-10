@@ -5,8 +5,6 @@ import { useState } from "react";
 export default function MobileHome() {
   const [toggle, setToggle] = useState(false);
   const openNav = () => {
-    // alert("called")
-    console.log("called");
     setToggle(true);
   };
 
@@ -35,7 +33,7 @@ export default function MobileHome() {
             <a href="/">Our Team</a>
           </div>
           <div className={styles.MobNavItem}>
-            <a href="/">Case Study</a>
+            <a href="/caseStudy">Case Study</a>
           </div>
         </div>
       )}

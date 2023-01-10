@@ -156,7 +156,7 @@
   0% {
     top: 10px;
     opacity: 1;
-    background: green;
+    background: #37BE43;
     backdrop-filter: blur(15px) saturate(3);
     background-size: 35px 35px;
     background-attachment: 10px;
@@ -168,6 +168,7 @@
     top: 0px;
     opacity: 1;
     /* backdrop-filter: blur(15px) saturate(3); */
+    background: #37BE43;
     background-attachment: 10px;
     background-position-x: 12.5px;
     background-position-y: 12.5px;
@@ -180,7 +181,7 @@
     background-attachment: 10px;
     background-position-x: 12.5px;
     background-position-y: 12.5px;
-    background: rgb(24, 89, 24);
+    background: #ffffff6a;
   }
 }
 

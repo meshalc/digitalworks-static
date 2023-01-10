@@ -3,10 +3,15 @@ import Image from "next/image";
 import { Inter } from "@next/font/google";
 import styles from "../styles/Home.module.css";
 import Logo from "../public/Logo.svg";
+import MobileHome from "../component/mobile/Home/mobileHome";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
+  const openNav = () => {
+    // alert("called")
+    console.log("called")
+  }
   return (
     <>
       <Head>
@@ -15,90 +20,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className={styles.container}>
-        <div className={styles.left}>
-          <div className={styles.leftContainer}>
-            <div className={styles.logo}>
-              <a href="/">
-                <img src="Logo.svg" />
-              </a>
-            </div>
-            <div className={styles.caption}>
-              <h1>
-                Making Digital <br /> Transformation Work
-              </h1>
-              <a href="tel:+971 54 461 5700">GET IN TOUCH</a>
-              <div className={styles.socialMobile}>
-              {/* <div className={styles.followUs}>
-                Follow us:
-              </div> */}
-              <div className={styles.socialIcon}>
-                <a href="https://twitter.com/ansar_abd">
-                  <img src="twitter.svg"></img>
-                </a>
-              </div>
-              <div className={styles.socialIcon}>
-                <a href="https://www.linkedin.com/mwlite/company/digitalworks-group">
-                  <img src="linkedin.svg"></img>
-                </a>
-              </div>
-            </div>
-            </div>
-            <div className={styles.social}>
-              <div className={styles.socialIcon}>
-                <a href="https://twitter.com/ansar_abd">
-                  <img src="twitter.svg"></img>
-                </a>
-              </div>
-              <div className={styles.socialIcon}>
-                <a href="https://www.linkedin.com/mwlite/company/digitalworks-group">
-                  <img src="linkedin.svg"></img>
-                </a>
-              </div>
-            </div>
-            <div className={styles.navMobile}>
-              <div className={styles.navMobileItems}>
-                <a href="/">
-                  <div className={styles.navMobileItem}>Home</div>
-                </a>
-                <a>
-                  <div className={styles.navMobileItem}>About</div>
-                </a>
-                <a>
-                  <div className={styles.navMobileItem}>Our Team</div>
-                </a>
-                <a href="/caseStudy">
-                  <div className={styles.navMobileItem}>Case Study</div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className={styles.right}>
-          <div className={styles.rightContainer}>
-            <div className={styles.nav}>
-              <div className={styles.navItems}>
-                <a href="/">
-                  <div>Home</div>
-                </a>
-                <a href="/">
-                  <div>About</div>
-                </a>
-                <a href="/">
-                  <div>Our Team</div>
-                </a>
-                <a href="/caseStudy">
-                  <div>Case Study</div>
-                </a>
-              </div>
-            </div>
-            <div className={styles.animation}></div>
-            <div className={styles.footer}>
-              All rights reserved © Digitalworks.co
-            </div>
-          </div>
-        </div>
-      </div>
+      <MobileHome/>
+      
     </>
   );
 }

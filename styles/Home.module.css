@@ -342,6 +342,7 @@ a.mobActiveNav {
 .nav a:hover {
   color: #37BE43 !important;
 }
+
 .active a {
   color: #37BE43 !important;
   text-decoration: underline !important;
@@ -438,4 +439,102 @@ a.mobActiveNav {
 .animation {
   align-items: center;
   justify-content: center;
+}
+
+/* mobilecase study */
+
+.mobCaseStudy {
+  height: 80%;
+}
+
+.mobBanner {
+  height: 20%;
+  background: #374151;
+  margin-top: 10px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+  text-align: center;
+  letter-spacing: 1px;
+  padding-top: 20px;
+  color: #9F9F9F;
+
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.mobHighLight {
+  color: #37BE43;
+}
+
+.mobBanner h1 {
+  font-weight: 200;
+  font-size: 28px;
+  line-height: 36px;
+  /* identical to box height, or 175% */
+
+  text-align: center;
+
+  color: #FFFFFF;
+  letter-spacing: 2px;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-color: #37BE43;
+  text-decoration-thickness: 1px;
+}
+
+.mobcaseStudyItem {
+  padding-top: 30px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  color: #374151;
+  display: flex;
+  justify-content: left;
+  /* padding-left: 10%; */
+}
+
+.mobcaseStudyItem:hover{
+  color: #37BE43;
+}
+
+.caseStudyVector {
+  padding-right: 20px;
+}
+.mobcaseStudyItemsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mobcaseStudyItems {
+  display: flex;
+  flex-direction: column;
+}
+
+.mobcaseStudyItems a {
+  text-decoration: none;
+}
+
+.underline {
+  border: 1px solid #DCDCDC;;
+  margin-top: 20px;
+}
+
+.caseStudyMain {
+  height: 80%;
+  /* background: rebeccapurple; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.StudyItemsContainer {
+  margin-left: 10%;
+  margin-right: 50%;
+}
+
+.caseStudyMain h1{
+  font-weight: 300;
+  color: #374151;
 }

@@ -463,6 +463,11 @@ a.mobActiveNav {
   transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
+.mobBanner a {
+  text-decoration: none;
+  color: #888F99;
+}
+
 .mobHighLight {
   color: #37BE43;
 }

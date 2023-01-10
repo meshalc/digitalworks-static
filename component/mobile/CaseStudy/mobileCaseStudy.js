@@ -4,8 +4,6 @@ import { useState } from "react";
 export default function MobileCaseStudy() {
   const [toggle, setToggle] = useState(false);
   const openNav = () => {
-    // alert("called")
-    console.log("called");
     setToggle(true);
   };
 
@@ -23,9 +21,7 @@ export default function MobileCaseStudy() {
             </button>
           </div>
           <div className={styles.MobNavItem}>
-            <a href="/" >
-              Home
-            </a>
+            <a href="/">Home</a>
           </div>
           <div className={styles.MobNavItem}>
             <a href="/">About</a>
@@ -34,7 +30,9 @@ export default function MobileCaseStudy() {
             <a href="/">Our Team</a>
           </div>
           <div className={styles.MobNavItem}>
-            <a href="/" className={styles.mobActiveNav}>Case Study</a>
+            <a href="/" className={styles.mobActiveNav}>
+              Case Study
+            </a>
           </div>
         </div>
       )}
@@ -53,9 +51,11 @@ export default function MobileCaseStudy() {
         </div>
         <div className={styles.mobCaseStudy}>
           <div className={styles.mobBanner}>
-            <span>
-              Home / <span className={styles.mobHighLight}>Case Study</span>
-            </span>
+            <a href="/">
+              <span>
+                Home / <span className={styles.mobHighLight}>Case Study</span>
+              </span>
+            </a>
             <h1>Case Study</h1>
           </div>
           <div className={styles.mobcaseStudyItemsContainer}>
@@ -69,7 +69,7 @@ export default function MobileCaseStudy() {
                   <div>DevOps</div>
                 </div>
               </a>
-              <div className= {styles.underline}></div>
+              <div className={styles.underline}></div>
               <a href="devops">
                 <div className={styles.mobcaseStudyItem}>
                   <div className={styles.caseStudyVector}>
@@ -78,7 +78,7 @@ export default function MobileCaseStudy() {
                   <div>MAGRABi</div>
                 </div>
               </a>
-              <div className= {styles.underline}></div>
+              <div className={styles.underline}></div>
               <a href="devops">
                 <div className={styles.mobcaseStudyItem}>
                   <div className={styles.caseStudyVector}>

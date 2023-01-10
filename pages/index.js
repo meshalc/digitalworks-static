@@ -4,6 +4,7 @@ import { Inter } from "@next/font/google";
 import styles from "../styles/Home.module.css";
 import Logo from "../public/Logo.svg";
 import MobileHome from "../component/mobile/Home/mobileHome";
+import HomeMain from "../component/Desktop/Home";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,6 +22,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <MobileHome/>
+      <HomeMain/>
       
     </>
   );

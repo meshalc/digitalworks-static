@@ -1,11 +1,16 @@
 import styles from "../../../styles/Home.module.css";
 import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function MobileCaseStudy() {
   const [toggle, setToggle] = useState(false);
   const openNav = () => {
     setToggle(true);
   };
+
+  useEffect(() => {
+    document.body.style.overflow = "hidden"
+  }, []);
 
   const close = () => {
     setToggle(false);

@@ -41,7 +41,7 @@ export default function HomeMain() {
                 <a href="/">Home</a>
               </div>
               <div>
-                <a href="/about">About</a>
+                <a href="/about">About Us</a>
               </div>
               <div>
                 <a href="/">Our Team</a>

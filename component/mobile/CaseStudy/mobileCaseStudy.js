@@ -28,7 +28,7 @@ export default function MobileCaseStudy() {
             <a href="/">Home</a>
           </div>
           <div className={styles.MobNavItem}>
-            <a href="/about">About</a>
+            <a href="/about">About Us</a>
           </div>
           <div className={styles.MobNavItem}>
             <a href="/">Our Team</a>

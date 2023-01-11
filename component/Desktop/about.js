@@ -18,7 +18,7 @@ export default function About() {
                                     <a href="/">Home</a>
                                 </div>
                                 <div className={styles.blogNavItem}>
-                                    <a href="/about">About us</a></div>
+                                    <a href="/about">About Us</a></div>
                                 <div className={styles.blogNavItem}>
                                     <a href="/">Our Team</a></div>
                                 <div className={styles.blogNavItem}>
@@ -33,7 +33,7 @@ export default function About() {
                                     Home / <span className={styles.mobHighLight}>About Us</span>
                                 </span>
                                 <div className={styles.blogCaption}>
-                                    <h1>About US</h1>
+                                    <h1>About Us</h1>
                                 </div>
                             </a>
                         </div>

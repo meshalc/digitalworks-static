@@ -12,38 +12,38 @@ export default function CaseStudy() {
             </a>
           </div>
           <div className={styles.caseStudyMain}>
-          <div className={styles.StudyItemsContainer}>
-            <h1>Case Study</h1>
-            <div className={styles.mobcaseStudyItems}>
-              <a href="devops">
-                <div className={styles.mobcaseStudyItem}>
-                  {" "}
-                  <div className={styles.caseStudyVector}>
-                    <img src="Vector.svg"></img>
+            <div className={styles.StudyItemsContainer}>
+              <h1>Case Study</h1>
+              <div className={styles.mobcaseStudyItems}>
+                <a href="devops">
+                  <div className={styles.mobcaseStudyItem}>
+                    {" "}
+                    <div className={styles.caseStudyVector}>
+                      <img src="Vector.svg"></img>
+                    </div>
+                    <div>DevOps</div>
                   </div>
-                  <div>DevOps</div>
-                </div>
-              </a>
-              <div className= {styles.underline}></div>
-              <a href="devops">
-                <div className={styles.mobcaseStudyItem}>
-                  <div className={styles.caseStudyVector}>
-                    <img src="Vector.svg"></img>
+                </a>
+                <div className={styles.underline}></div>
+                <a href="magrabi">
+                  <div className={styles.mobcaseStudyItem}>
+                    <div className={styles.caseStudyVector}>
+                      <img src="Vector.svg"></img>
+                    </div>
+                    <div>MAGRABi</div>
                   </div>
-                  <div>MAGRABi</div>
-                </div>
-              </a>
-              <div className= {styles.underline}></div>
-              <a href="devops">
-                <div className={styles.mobcaseStudyItem}>
-                  <div className={styles.caseStudyVector}>
-                    <img src="Vector.svg"></img>
+                </a>
+                <div className={styles.underline}></div>
+                <a href="fenix-outdoor">
+                  <div className={styles.mobcaseStudyItem}>
+                    <div className={styles.caseStudyVector}>
+                      <img src="Vector.svg"></img>
+                    </div>
+                    <div>Fenix Outdoor</div>
                   </div>
-                  <div>Fenix Outdoor</div>
-                </div>
-              </a>
+                </a>
+              </div>
             </div>
-          </div>
           </div>
           <div className={styles.social}>
             {" "}
@@ -77,7 +77,7 @@ export default function CaseStudy() {
               </div>
             </div>
           </div>
-          <div className={styles.animation}><Anim/></div>
+          <div className={styles.animation}><Anim /></div>
           <div className={styles.mobFooter}>
             <span>All rights reserved © Digitalworks.co</span>
           </div>

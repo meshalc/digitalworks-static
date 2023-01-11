@@ -30,7 +30,7 @@ export default function MobileCaseStudy() {
             <a href="/">Our Team</a>
           </div>
           <div className={styles.MobNavItem}>
-            <a href="/casestudy" className={styles.mobActiveNav}>
+            <a href="/caseStudy" className={styles.mobActiveNav}>
               Case Study
             </a>
           </div>
@@ -70,7 +70,7 @@ export default function MobileCaseStudy() {
                 </div>
               </a>
               <div className={styles.underline}></div>
-              <a href="devops">
+              <a href="magrabi">
                 <div className={styles.mobcaseStudyItem}>
                   <div className={styles.caseStudyVector}>
                     <img src="Vector.svg"></img>
@@ -79,7 +79,7 @@ export default function MobileCaseStudy() {
                 </div>
               </a>
               <div className={styles.underline}></div>
-              <a href="devops">
+              <a href="fenix-outdoor">
                 <div className={styles.mobcaseStudyItem}>
                   <div className={styles.caseStudyVector}>
                     <img src="Vector.svg"></img>

@@ -36,7 +36,7 @@ export default function MobileCaseStudy() {
           </div>
         </div>
       )}
-      <div className={styles.Mobcontainer}>
+      <div className={styles.mobMobileContainer}>
         <div className={styles.Mobheader}>
           <div className={styles.mobLogo}>
             <a href="/">
@@ -50,10 +50,10 @@ export default function MobileCaseStudy() {
           </div>
         </div>
         <div className={styles.mobCaseStudy}>
-          <div className={styles.mobBanner}>
-            <a href="/">
+          <div className={styles.mobBannerBlog}>
+            <a href="/caseStudy">
               <span>
-                Home / <span className={styles.mobHighLight}>DevOps</span>
+                Case study / <span className={styles.mobHighLight}>DevOps</span>
               </span>
             </a>
             <h1>DevOps</h1>
@@ -74,12 +74,12 @@ export default function MobileCaseStudy() {
             <h2>Digital Transformation</h2>
             <h3>The 4E Strategy</h3>
             <img src="Group 18.svg"></img>
-            <img src="Group 18.svg"></img>
-            <img src="Group 18.svg"></img>
-            <img src="Group 18.svg"></img>
+            <img src="Group 19.svg"></img>
+            <img src="Group 20.svg"></img>
+            <img src="Group 21.svg"></img>
           </div>
         </div>
-        {/* <div className={styles.mobSocial}>
+        <div className={styles.mobSocial}>
           <div className={styles.mobSocialIcon}>
             <a href="https://twitter.com/ansar_abd">
               <img src="twitter.svg"></img>
@@ -93,7 +93,7 @@ export default function MobileCaseStudy() {
         </div>
         <div className={styles.mobFooter}>
           <span>All rights reserved © Digitalworks.co</span>
-        </div> */}
+        </div>
       </div>
     </>
   );

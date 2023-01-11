@@ -30,7 +30,7 @@ export default function MobileCaseStudy() {
             <a href="/">Our Team</a>
           </div>
           <div className={styles.MobNavItem}>
-            <a href="/" className={styles.mobActiveNav}>
+            <a href="/casestudy" className={styles.mobActiveNav}>
               Case Study
             </a>
           </div>

@@ -170,7 +170,6 @@
 
 .mobBlock:nth-child(4n+4) {
   animation: waveMobile 4s ease .8s infinite;
-  margin-right: 0;
 }
 
 @keyframes waveMobile {
@@ -255,7 +254,6 @@
 
 .blogBlock:nth-child(4n+4) {
   animation: waveBlog 4s ease .8s infinite;
-  margin-right: 0;
 }
 
 @keyframes waveBlog {
@@ -500,7 +498,6 @@ a.mobActiveNav {
 
 .Block:nth-child(4n+4) {
   animation: wave 4s ease .8s infinite;
-  margin-right: 0;
 }
 
 @keyframes wave {

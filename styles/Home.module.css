@@ -176,7 +176,7 @@
   0% {
     top: 5px;
     opacity: 1;
-    background: #37BE43;
+    background: #888F99;
     backdrop-filter: blur(15px) saturate(3);
     background-size: 35px 35px;
     background-attachment: 10px;
@@ -188,7 +188,7 @@
     top: 0px;
     opacity: 1;
     /* backdrop-filter: blur(15px) saturate(3); */
-    background: #37BE43;
+    background: #888F99;
     background-attachment: 10px;
     background-position-x: 12.5px;
     background-position-y: 12.5px;
@@ -201,7 +201,7 @@
     background-attachment: 10px;
     background-position-x: 12.5px;
     background-position-y: 12.5px;
-    background: #ffffff6a;
+    background: #888F99;
   }
 }
 
@@ -260,7 +260,7 @@
   0% {
     top: 5px;
     opacity: 1;
-    background: #37BE43;
+    background: #888F99;
     backdrop-filter: blur(15px) saturate(3);
     background-size: 35px 35px;
     background-attachment: 10px;
@@ -272,7 +272,7 @@
     top: 0px;
     opacity: 1;
     /* backdrop-filter: blur(15px) saturate(3); */
-    background: #37BE43;
+    background: #888F99;
     background-attachment: 10px;
     background-position-x: 12.5px;
     background-position-y: 12.5px;
@@ -285,7 +285,7 @@
     background-attachment: 10px;
     background-position-x: 12.5px;
     background-position-y: 12.5px;
-    background: #ffffff6a;
+    background: #888F99;
   }
 }
 
@@ -504,7 +504,7 @@ a.mobActiveNav {
   0% {
     top: 30px;
     opacity: 1;
-    background: #37BE43;
+    background:  #888F99;
     backdrop-filter: blur(15px) saturate(3);
     background-size: 35px 35px;
     background-attachment: 10px;
@@ -516,7 +516,7 @@ a.mobActiveNav {
     top: 0px;
     opacity: 1;
     /* backdrop-filter: blur(15px) saturate(3); */
-    background: #37BE43;
+    background:  #888F99;
     background-attachment: 10px;
     background-position-x: 12.5px;
     background-position-y: 12.5px;
@@ -529,7 +529,7 @@ a.mobActiveNav {
     background-attachment: 10px;
     background-position-x: 12.5px;
     background-position-y: 12.5px;
-    background: #ffffff6a;
+    background: #888F99;
   }
 }
 

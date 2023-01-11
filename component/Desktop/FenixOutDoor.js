@@ -1,5 +1,5 @@
 import styles from "../../styles/Home.module.css";
-import MobileAnim from "../mobile/Animation/mobileAnim";
+import BlogAnim from "../mobile/Animation/blogAnim";
 
 export default function FenixOutDoor() {
     return (
@@ -38,7 +38,7 @@ export default function FenixOutDoor() {
                             </a>
                         </div>
                         <div className={styles.blogAnim}>
-                            <MobileAnim />
+                            <BlogAnim />
                         </div>
                     </div>
                     <div className={styles.BlogP}>

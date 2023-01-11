@@ -1,5 +1,5 @@
 import styles from "../../styles/Home.module.css";
-import MobileAnim from "../mobile/Animation/mobileAnim";
+import BlogAnim from "../mobile/Animation/blogAnim";
 
 export default function About() {
     return (
@@ -38,7 +38,7 @@ export default function About() {
                             </a>
                         </div>
                         <div className={styles.blogAnim}>
-                            <MobileAnim />
+                            <BlogAnim />
                         </div>
                     </div>
                     <div className={styles.brand}>

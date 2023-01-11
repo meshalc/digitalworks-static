@@ -3,6 +3,7 @@ import MobileAnim from "../Animation/mobileAnim";
 import { useState } from "react";
 
 export default function MobileHome() {
+  document.body.style.overflow = "hidden"
   const [toggle, setToggle] = useState(false);
   const openNav = () => {
     setToggle(true);

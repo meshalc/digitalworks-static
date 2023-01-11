@@ -79,9 +79,9 @@
 }
 
 @media screen and (max-height: 800px) {
-  .mobCaption {
+  /* .mobCaption {
     height: 40%;
-  }
+  } */
 }
 
 .mobCaption h1 {

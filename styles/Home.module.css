@@ -459,11 +459,11 @@ a.mobActiveNav {
 /* mobilecase study */
 
 .mobCaseStudy {
-  height: 70%;
+  height: 65%;
 }
 
 .mobBanner {
-  height: 20%;
+  height: 120px;
   background: #374151;
   margin-top: 10px;
   font-weight: 300;
@@ -543,6 +543,7 @@ a.mobActiveNav {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 28px;
 }
 
 .mobBlogP {

@@ -12,6 +12,7 @@
     display: block;
     background-image: radial-gradient(rgb(214, 214, 214) 1px, transparent 0);
     background-size: 30px 30px;
+    overflow: hidden;
   }
 
   .mobMobileContainer {

@@ -12,7 +12,7 @@ export default function MAGRABi() {
     };
     return (
         <>
-            {toggle && (
+            {toggle ? (
                 <div className={styles.mobMenu}>
                     <div className={styles.CloseMobNavItem}>
                         {" "}
@@ -35,8 +35,7 @@ export default function MAGRABi() {
                         </a>
                     </div>
                 </div>
-            )}
-            <div className={styles.mobMobileContainer}>
+            ) : (<div className={styles.mobMobileContainer}>
                 <div className={styles.Mobheader}>
                     <div className={styles.mobLogo}>
                         <a href="/">
@@ -88,7 +87,8 @@ export default function MAGRABi() {
                 <div className={styles.mobFooter}>
                     <span>All rights reserved © Digitalworks.co</span>
                 </div>
-            </div>
+            </div>)}
+
         </>
     );
 }

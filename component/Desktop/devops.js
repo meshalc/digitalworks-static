@@ -18,7 +18,7 @@ export default function DevOps() {
                                     <a href="/">Home</a>
                                 </div>
                                 <div className={styles.blogNavItem}>
-                                    <a href="/about">About US</a></div>
+                                    <a href="/about">About us</a></div>
                                 <div className={styles.blogNavItem}>
                                     <a href="/">Our Team</a></div>
                                 <div className={styles.blogNavItem}>

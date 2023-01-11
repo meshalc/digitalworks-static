@@ -41,7 +41,7 @@ export default function HomeMain() {
                 <a href="/">Home</a>
               </div>
               <div>
-                <a href="/">About</a>
+                <a href="/about">About</a>
               </div>
               <div>
                 <a href="/">Our Team</a>
@@ -51,7 +51,7 @@ export default function HomeMain() {
               </div>
             </div>
           </div>
-          <div className={styles.animation}><Anim/></div>
+          <div className={styles.animation}><Anim /></div>
           <div className={styles.mobFooter}>
             <span>All rights reserved © Digitalworks.co</span>
           </div>

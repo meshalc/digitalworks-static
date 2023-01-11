@@ -18,11 +18,11 @@ export default function About() {
                                     <a href="/">Home</a>
                                 </div>
                                 <div className={styles.blogNavItem}>
-                                    <a href="/about">About Us</a></div>
+                                    <a className={styles.blogNavH} href="/about">About Us</a></div>
                                 <div className={styles.blogNavItem}>
                                     <a href="/">Our Team</a></div>
                                 <div className={styles.blogNavItem}>
-                                    <a className={styles.blogNavH} href="/caseStudy">Case Study</a></div>
+                                    <a href="/caseStudy">Case Study</a></div>
                             </div>
                         </div>
                     </div>

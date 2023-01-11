@@ -266,8 +266,7 @@ a.mobActiveNav {
 .CloseMobNavItem {
   display: flex;
   align-items: center;
-  height: 60px;
-  justify-content: end !important;
+  padding-left: 85%;
 }
 
 .CloseMobNavItem button {

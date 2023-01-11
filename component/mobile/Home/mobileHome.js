@@ -1,9 +1,12 @@
 import styles from "../../../styles/Home.module.css";
 import MobileAnim from "../Animation/mobileAnim";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function MobileHome() {
-  document.body.style.overflow = "hidden"
+  useEffect(() => {
+    document.body.style.overflow = "hidden"
+  }, []);
+  // document.body.style.overflow = "hidden"
   const [toggle, setToggle] = useState(false);
   const openNav = () => {
     setToggle(true);

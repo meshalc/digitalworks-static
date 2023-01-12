@@ -1,41 +1,46 @@
 import styles from "../../styles/Home.module.css";
 import BlogAnim from "../mobile/Animation/blogAnim";
+import Link from 'next/link'
+import { useEffect } from "react";
 
 export default function About() {
+    useEffect(() => {
+        document.body.style.overflow = "scroll"
+      }, []);
     return (
         <>
             <div className={styles.blogBody}>
                 <div className={styles.blogContainer}>
                     <div className={styles.blogHeader}>
                         <div className={styles.blogLogo}>
-                            <a href="/">
+                            <Link href="/">
                                 <img src="Logo.svg"></img>
-                            </a>
+                            </Link>
                         </div>
                         <div className={styles.blogNav}>
                             <div className={styles.blogNavItems}>
                                 <div className={styles.blogNavItem}>
-                                    <a href="/">Home</a>
+                                    <Link href="/">Home</Link>
                                 </div>
                                 <div className={styles.blogNavItem}>
-                                    <a className={styles.blogNavH} href="/about">About Us</a></div>
+                                    <Link className={styles.blogNavH} href="/about">About Us</Link></div>
                                 <div className={styles.blogNavItem}>
-                                    <a href="/">Our Team</a></div>
+                                    <Link href="/">Our Team</Link></div>
                                 <div className={styles.blogNavItem}>
-                                    <a href="/caseStudy">Case Study</a></div>
+                                    <Link href="/caseStudy">Case Study</Link></div>
                             </div>
                         </div>
                     </div>
                     <div className={styles.blogBanner}>
                         <div className={styles.blogBreadCrum}>
-                            <a href="/caseStudy">
+                            <Link href="/caseStudy">
                                 <span>
                                     Home / <span className={styles.mobHighLight}>About Us</span>
                                 </span>
                                 <div className={styles.blogCaption}>
                                     <h1>About Us</h1>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
                         <div className={styles.blogAnim}>
                             <BlogAnim />
@@ -156,14 +161,14 @@ export default function About() {
                             {/* <div className={styles.social}> */}
                             {" "}
                             <div className={styles.mobSocialIcon}>
-                                <a href="https://twitter.com/ansar_abd">
+                                <Link href="https://twitter.com/ansar_abd">
                                     <img src="twitter.svg"></img>
-                                </a>
+                                </Link>
                             </div>
                             <div className={styles.mobSocialIcon}>
-                                <a href="https://www.linkedin.com/company/digitalworks-group/">
+                                <Link href="https://www.linkedin.com/company/digitalworks-group/">
                                     <img src="linkedin.svg"></img>
-                                </a>
+                                </Link>
                             </div>
                             {/* </div> */}
                         </div>

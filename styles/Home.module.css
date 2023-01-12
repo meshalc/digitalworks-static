@@ -90,20 +90,20 @@
   font-weight: 200;
   line-height: 46px;
   letter-spacing: 1px;
-  margin-top: 30px;
+  margin-top: 10px;
   color: #374151;
 }
 
 .mobCaption a {
   color: #37BE43;
-  font-weight: 400;
-  font-size: 16px;
+  font-weight: 600;
+  font-size: 14px;
   line-height: 21px;
   border: 2px solid #37BE43;
   border-radius: 8px;
   padding-top: 16px;
-  width: 175px;
-  height: 38px;
+  width: 160px;
+  height: 34px;
   justify-content: center;
   display: flex;
   text-decoration: none;
@@ -567,7 +567,7 @@ a.mobActiveNav {
 }
 
 .mobBannerBlog {
-  height: 100px;
+  height: 120px;
   background: #374151;
   margin-top: 10px;
   font-weight: 300;
@@ -609,7 +609,7 @@ a.mobActiveNav {
 }
 
 .mobcaseStudyItem {
-  padding-top: 30px;
+  padding-top: 24px;
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
@@ -631,9 +631,19 @@ a.mobActiveNav {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 28px;
+  padding-top: 50px;
 }
+.mobBlogPFenix {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
 
+}
+.mobBlogPFenix b{
+  color: #374151;
+  padding-left: 10%;
+  font-size: 18px;
+}
 .mobBlogP {
   display: flex;
   flex-direction: column;
@@ -642,12 +652,18 @@ a.mobActiveNav {
   margin-bottom: 20px;
 }
 
-.mobBlogP img {
+.mobBlogPFenix img,.mobBlogP img {
   width: 300px;
   padding-top: 20px;
 }
 
-.mobBlogP h2 {
+.mobBlogPFenix img {
+  padding-left: 10%;
+  padding-bottom: 20px;
+
+}
+
+.mobBlogPFenix h2, .mobBlogP h2 {
   text-align: center;
   font-weight: 400;
   font-size: 28px;
@@ -663,7 +679,7 @@ a.mobActiveNav {
   margin-bottom: 0;
 }
 
-.mobBlogP h3 {
+.mobBlogPFenix h3, .mobBlogP h3 {
   text-align: center;
   font-weight: 400;
   font-size: 20px;
@@ -680,7 +696,7 @@ a.mobActiveNav {
   margin-bottom: 0;
 }
 
-.mobBlogP p {
+.mobBlogPFenix p, .mobBlogP p {
   padding-left: 10%;
   padding-right: 10%;
   font-weight: 400;
@@ -735,8 +751,8 @@ a.mobActiveNav {
 }
 
 .blogContainer {
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
   /* margin-bottom: 50px; */
 }
 
@@ -758,10 +774,11 @@ a.mobActiveNav {
   display: flex;
   width: 50%;
   justify-content: center;
+  margin-left: 10%;
 }
 
 .blogNavItems {
-  width: 400px;
+  width: 600px;
   display: flex;
   justify-content: space-between;
 }
@@ -838,7 +855,7 @@ a.mobActiveNav {
   align-items: center;
 }
 
-.BlogP p {
+.BlogPfenix p, .BlogP p {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
@@ -851,7 +868,7 @@ a.mobActiveNav {
   transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
-.BlogP h2 {
+.BlogPfenix h2, .BlogP h2 {
   font-weight: 400;
   font-size: 28px;
   line-height: 150%;
@@ -859,6 +876,7 @@ a.mobActiveNav {
   margin-top: 10px;
   margin-bottom: 0;
   letter-spacing: 0.01em;
+  margin-bottom: 50px;
 
   color: #374151;
 
@@ -866,13 +884,13 @@ a.mobActiveNav {
 
 }
 
-.BlogP h3{
+.BlogPfenix h3, .BlogP h3{
   margin-top: 10px;
   color: #37BE43;
   font-weight: 600;
 }
 
-.BlogP h3 span{
+.BlogPfenix span, .BlogP h3 span{
   margin-top: 10px;
   color: #374151;
   font-weight: 600;
@@ -880,6 +898,13 @@ a.mobActiveNav {
 
 .BlogP img{
   width: 100%;
+}
+
+.BlogPfenix img {
+  width: 50%;
+  max-width: 700px;
+  margin-left: 25%;
+  margin-bottom: 20px;
 }
 
 .BlogP h2 span {
@@ -893,6 +918,13 @@ a.mobActiveNav {
 
   color: #2FAC3A;
 }
+
+.BlogPfenix b {
+  color: #374151;
+  font-size: 20px;
+}
+
+
 
 .blogImage {
   display: flex;
@@ -1008,7 +1040,15 @@ a.mobActiveNav {
   color: #374151;
 
   transform: matrix(1, 0, 0, 1, 0, 0);
+
 }
+
+/* .consultingAre h2,  .brandLeft h3{
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-color: #37BE43;
+  text-decoration-thickness: 3px;
+} */
 
 .brandLeft p {
   font-weight: 400;

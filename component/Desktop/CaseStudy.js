@@ -1,5 +1,6 @@
 import styles from "../../styles/Home.module.css";
 import Anim from "../mobile/Home/Anim";
+import Link from 'next/link'
 
 export default function CaseStudy() {
   return (
@@ -62,22 +63,29 @@ export default function CaseStudy() {
         <div className={styles.rightContainer}>
           <div className={styles.nav}>
             <div className={styles.navItems}>
-              {" "}
-              <div>
-                <a href="/">Home</a>
-              </div>
-              <div>
-                <a href="/about">About Us</a>
-              </div>
-              <div>
-                <a href="/">Our Team</a>
-              </div>
-              <div className={styles.active}>
-                <a href="/">Case Study</a>
+              <div className={styles.navItems}>
+                {" "}
+                <div>
+                  <Link href="/">Home</Link>
+                </div>
+                <div>
+                  <Link href="/about">About Us</Link>
+                  {/* <a href="/about">About Us</a> */}
+                </div>
+                <div>
+                  <Link href="/">Our Team</Link>
+                  {/* <a href="/">Our Team</a> */}
+                </div>
+                <div className={styles.active}>
+                  <Link href="/caseStudy">Case Study</Link>
+                  {/* <a href="/caseStudy">Case Study</a> */}
+                </div>
               </div>
             </div>
           </div>
-          <div className={styles.animation}><Anim /></div>
+          <div className={styles.animation}>
+            <Anim />
+          </div>
           <div className={styles.mobFooter}>
             <span>All rights reserved © Digitalworks.co</span>
           </div>

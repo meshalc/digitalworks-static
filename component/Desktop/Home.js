@@ -1,5 +1,6 @@
 import styles from "../../styles/Home.module.css";
 import Anim from "../mobile/Home/Anim";
+import Link from 'next/link'
 
 export default function HomeMain() {
   return (
@@ -38,16 +39,19 @@ export default function HomeMain() {
             <div className={styles.navItems}>
               {" "}
               <div className={styles.active}>
-                <a href="/">Home</a>
+                <Link href="/">Home</Link>
               </div>
               <div>
-                <a href="/about">About Us</a>
+              <Link href="/about">About Us</Link>
+                {/* <a href="/about">About Us</a> */}
               </div>
               <div>
-                <a href="/">Our Team</a>
+              <Link href="/">Our Team</Link>
+                {/* <a href="/">Our Team</a> */}
               </div>
               <div>
-                <a href="/caseStudy">Case Study</a>
+                <Link href="/caseStudy">Case Study</Link>
+                {/* <a href="/caseStudy">Case Study</a> */}
               </div>
             </div>
           </div>

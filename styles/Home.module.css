@@ -385,20 +385,25 @@ a.mobActiveNav {
 
 .logo,
 .nav {
-  height: 10%;
-  /* background: green; */
-  margin-left: 10%;
+  /* height: 10%; */
   display: flex;
   align-items: center;
+  margin-top: 50px;
+}
+
+.logo {
+  margin-left: 10%;
 }
 
 .nav {
   justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .navItems {
   display: flex;
-  width: 300px;
+  width: 400px;
   justify-content: space-between;
   align-items: center;
 }
@@ -471,6 +476,7 @@ a.mobActiveNav {
 .BlockContainer {
   z-index: 0;
   display: block;
+  margin-right: 10%;
 }
 
 .Block {
@@ -671,6 +677,7 @@ a.mobActiveNav {
 
   transform: matrix(1, 0, 0, 1, 0, 0);
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 .mobBlogP p {
@@ -739,7 +746,7 @@ a.mobActiveNav {
 
 .blogLogo {
   width: 50%;
-  padding-top: 20px;
+  padding-top: 50px;
 }
 
 .blogLogo img {
@@ -747,7 +754,7 @@ a.mobActiveNav {
 }
 
 .blogNav {
-  padding-top: 20px;
+  padding-top: 50px;
   display: flex;
   width: 50%;
   justify-content: center;
@@ -777,7 +784,7 @@ a.mobActiveNav {
 }
 
 .blogBanner {
-  margin-top: 18px;
+  margin-top: 30px;
   width: 100%;
   height: 392px;
   background: #374151;
@@ -824,6 +831,13 @@ a.mobActiveNav {
   padding-top: 20px;
 }
 
+.BlogP {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .BlogP p {
   font-weight: 400;
   font-size: 16px;
@@ -842,13 +856,30 @@ a.mobActiveNav {
   font-size: 28px;
   line-height: 150%;
   /* or 42px */
-
+  margin-top: 10px;
+  margin-bottom: 0;
   letter-spacing: 0.01em;
 
   color: #374151;
 
   transform: matrix(1, 0, 0, 1, 0, 0);
 
+}
+
+.BlogP h3{
+  margin-top: 10px;
+  color: #37BE43;
+  font-weight: 600;
+}
+
+.BlogP h3 span{
+  margin-top: 10px;
+  color: #374151;
+  font-weight: 600;
+}
+
+.BlogP img{
+  width: 100%;
 }
 
 .BlogP h2 span {

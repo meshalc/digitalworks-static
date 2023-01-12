@@ -61,6 +61,9 @@ export default function MAGRABi() {
                         <p>
                             MAGRABi is the Middle East's leading fashion eyewear and medical eye care specialist, with more than 150 stores across 5 countries in the region, as well as 20 pioneering MAGRABi hospitals focused on vision and eye health research. Digital works has conducted strategy workshops with the management of the MAGRABi to arrive at a high level requirements. We designed the end-to-end Customer value chainto identify the overall Customer-Experience journey. Blue printed the strategy to identify the tangible product roadmap in phases, scoping of features. We helped in defining the foundational aspects for Data, CRM Setup and payments. Digital works team has done overall coordination with various teams to deliver the digital objectives of the Customer working closely with their Chief Digital Officer. We defined the delivery process, team’s structure by working closely with the system integrators / partners. We drove the overall Agile coaching and planned multiple sprint ceremonies like Sprint review, Sprint Demo, Backlog Grooming, Story points etc
                         </p>
+                        <h2>Agile Delivery Model</h2>
+                        <h3>Value Driven <span>Pragmatic Framework</span></h3>
+                        <img src="aa.svg"></img>
                         <p>
                             Digital works has driven the Product Management, Product Design, Architecture and Operations. Owned and lead the discovery process with the internal/external teams for arriving at a mutually agreed sprint plan. Reviewed digital architecture and advised changes appropriately to ensure efficiency and business value. Provided Product leadership, Product design (UX) recommendations to customers digital team.
                         </p>

@@ -31,7 +31,7 @@ export default function MobileHome() {
             </a>
           </div>
           <div className={styles.MobNavItem}>
-            <a href="/about">About Us</a>
+            <a href="/about">About us</a>
           </div>
           <div className={styles.MobNavItem}>
             <a href="/">Our Team</a>

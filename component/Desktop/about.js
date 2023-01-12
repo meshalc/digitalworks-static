@@ -23,7 +23,7 @@ export default function About() {
                                     <Link href="/">Home</Link>
                                 </div>
                                 <div className={styles.blogNavItem}>
-                                    <Link className={styles.blogNavH} href="/about">About Us</Link></div>
+                                    <Link className={styles.blogNavH} href="/about">About us</Link></div>
                                 <div className={styles.blogNavItem}>
                                     <Link href="/">Our Team</Link></div>
                                 <div className={styles.blogNavItem}>
@@ -35,10 +35,10 @@ export default function About() {
                         <div className={styles.blogBreadCrum}>
                             <Link href="/caseStudy">
                                 <span>
-                                    Home / <span className={styles.mobHighLight}>About Us</span>
+                                    Home / <span className={styles.mobHighLight}>About us</span>
                                 </span>
                                 <div className={styles.blogCaption}>
-                                    <h1>About Us</h1>
+                                    <h1>About us</h1>
                                 </div>
                             </Link>
                         </div>

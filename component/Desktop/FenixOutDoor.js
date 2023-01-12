@@ -24,7 +24,7 @@ export default function FenixOutDoor() {
                   <Link href="/">Home</Link>
                 </div>
                 <div className={styles.blogNavItem}>
-                  <Link href="/about">About Us</Link>
+                  <Link href="/about">About us</Link>
                 </div>
                 <div className={styles.blogNavItem}>
                   <Link href="/">Our Team</Link>

@@ -42,8 +42,8 @@ export default function HomeMain() {
                 <Link href="/">Home</Link>
               </div>
               <div>
-              <Link href="/about">About Us</Link>
-                {/* <a href="/about">About Us</a> */}
+              <Link href="/about">About us</Link>
+                {/* <a href="/about">About us</a> */}
               </div>
               <div>
               <Link href="/">Our Team</Link>

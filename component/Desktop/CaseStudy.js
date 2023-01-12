@@ -74,8 +74,8 @@ export default function CaseStudy() {
                   <Link href="/">Home</Link>
                 </div>
                 <div>
-                  <Link href="/about">About Us</Link>
-                  {/* <Link href="/about">About Us</Link> */}
+                  <Link href="/about">About us</Link>
+                  {/* <Link href="/about">About us</Link> */}
                 </div>
                 <div>
                   <Link href="/">Our Team</Link>

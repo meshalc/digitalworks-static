@@ -30,7 +30,7 @@ export default function About() {
                         <Link href="/">Home</Link>
                     </div>
                     <div className={styles.MobNavItem}>
-                        <Link href="/about">About Us</Link>
+                        <Link href="/about">About us</Link>
                     </div>
                     <div className={styles.MobNavItem}>
                         <Link href="/">Our Team</Link>
@@ -59,10 +59,10 @@ export default function About() {
                         <div className={styles.mobBannerBlog}>
                             <Link href="/caseStudy">
                                 <span>
-                                    Home / <span className={styles.mobHighLight}>About Us</span>
+                                    Home / <span className={styles.mobHighLight}>About us</span>
                                 </span>
                             </Link>
-                            <h1>About Us</h1>
+                            <h1>About us</h1>
                         </div>
                     </div>
                     <div className={styles.mobBrands}>

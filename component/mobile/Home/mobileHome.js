@@ -77,7 +77,7 @@ export default function MobileHome() {
               </a>
             </div>
           </div>
-          <div className={styles.mobFooter}>
+          <div className={styles.mobFooterHome}>
             <span>All rights reserved © Digitalworks.co</span>
           </div>
         </div>

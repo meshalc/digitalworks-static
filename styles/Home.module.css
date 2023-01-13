@@ -42,6 +42,7 @@
   display: flex;
   /* margin-top: 18px; */
   justify-content: space-between;
+  min-height: 60px;
 }
 
 .mobHamburger img {
@@ -54,7 +55,7 @@
 }
 
 .mobLogo img {
-  width: 164px;
+  width: 170px;
   margin-top: 18px;
 }
 
@@ -114,6 +115,14 @@
   justify-content: center;
 }
 
+.mobSocialCaseStudy {
+  position: absolute;
+  bottom: 50px;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+}
+
 .mobSocialIcon {
   margin-left: 20px;
   margin-right: 20px;
@@ -123,6 +132,16 @@
   justify-content: center;
   display: flex;
   padding-top: 20px;
+  color: #888F99;
+  font-size: 14px;
+}
+
+.mobFooterHome {
+  position: absolute;
+  bottom: 12px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
   color: #888F99;
   font-size: 14px;
 }
@@ -351,6 +370,7 @@ a.mobActiveNav {
   display: flex;
   align-items: center;
   padding-left: 85%;
+  height: 30px;
 }
 
 .CloseMobNavItem button {
@@ -643,6 +663,7 @@ a.mobActiveNav {
   color: #374151;
   padding-left: 10%;
   font-size: 18px;
+  line-height: 28px;
 }
 .mobBlogP {
   display: flex;
@@ -701,10 +722,10 @@ a.mobActiveNav {
   padding-right: 10%;
   font-weight: 400;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 26px;
   /* or 24px */
 
-  letter-spacing: 0.01em;
+  letter-spacing: 1px;
 
   color: #374151;
 

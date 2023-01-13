@@ -95,7 +95,7 @@ export default function MobileCaseStudy() {
               </div>
             </div>
           </div>
-          <div className={styles.mobSocial}>
+          <div className={styles.mobSocialCaseStudy}>
             <div className={styles.mobSocialIcon}>
               <Link href="https://twitter.com/ansar_abd">
                 <img src="twitter.svg"></img>
@@ -107,7 +107,7 @@ export default function MobileCaseStudy() {
               </Link>
             </div>
           </div>
-          <div className={styles.mobFooter}>
+          <div className={styles.mobFooterHome}>
             <span>All rights reserved © Digitalworks.co</span>
           </div>
         </div>

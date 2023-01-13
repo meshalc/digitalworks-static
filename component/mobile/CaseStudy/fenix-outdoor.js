@@ -1,8 +1,7 @@
 import styles from "../../../styles/Home.module.css";
 import { useState } from "react";
-import Link from 'next/link'
+import Link from "next/link";
 import { useEffect } from "react";
-
 
 export default function FenixOutDoor() {
   const [toggle, setToggle] = useState(false);
@@ -128,19 +127,19 @@ export default function FenixOutDoor() {
               <img src="Screenshot 2022-11-24 at 5.47.28 PM.png" />
               <img src="/Screenshot 2022-11-24 at 5.47.35 PM.png" />
               <img src="Screenshot 2022-11-24 at 5.47.42 PM.png" />
-              <b>
-                Digitalize the sales processes with the new Sales Management
-                Platform
-              </b>{" "}
               <p>
-                that allows them to local sales management, customer centricity,
-                Usablity and to over come the dependency on legacy systems. We
-                have Build Sales Management platform out of microservices
-                managed on our own platform, integrated through API’s with
-                existing systems. We have built different modules like Sales
-                rules, Discount rules, Affiliation, Segmentation, Exclusions,
-                Exclusivity and customer Enritchment.
+                Digitalize the sales processes with the new Sales Management
+                Platform that allows them to local sales management, customer
+                centricity, Usablity and to over come the dependency on legacy
+                systems. We have Build Sales Management platform out of
+                microservices managed on our own platform, integrated through
+                API’s with existing systems. We have built different modules
+                like Sales rules, Discount rules, Affiliation, Segmentation,
+                Exclusions, Exclusivity and customer Enritchment.
               </p>
+              <img src="/Screenshot 2022-11-24 at 5.47.49 PM.png" />
+              <img src="/Screenshot 2022-11-24 at 5.47.55 PM.png" />
+              <img src="/Screenshot 2022-11-24 at 5.48.02 PM.png" />
             </div>
           </div>
           <div className={styles.mobSocial}>

@@ -23,14 +23,14 @@ export default function HomeMain() {
           <div className={styles.social}>
             {" "}
             <div className={styles.mobSocialIcon}>
-              <a href="https://twitter.com/ansar_abd">
+              <Link target="_blank" href="https://twitter.com/ansar_abd">
                 <img src="twitter.svg"></img>
-              </a>
+              </Link>
             </div>
             <div className={styles.mobSocialIcon}>
-              <a href="https://www.linkedin.com/company/digitalworks-group/">
+              <Link target="_blank" href="https://www.linkedin.com/company/digitalworks-group/">
                 <img src="linkedin.svg"></img>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

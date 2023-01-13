@@ -97,12 +97,12 @@ export default function MobileCaseStudy() {
           </div>
           <div className={styles.mobSocialCaseStudy}>
             <div className={styles.mobSocialIcon}>
-              <Link href="https://twitter.com/ansar_abd">
+              <Link target="_blank" href="https://twitter.com/ansar_abd">
                 <img src="twitter.svg"></img>
               </Link>
             </div>
             <div className={styles.mobSocialIcon}>
-              <Link href="https://www.linkedin.com/company/digitalworks-group/">
+              <Link target="_blank" href="https://www.linkedin.com/company/digitalworks-group/">
                 <img src="linkedin.svg"></img>
               </Link>
             </div>

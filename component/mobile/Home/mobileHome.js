@@ -67,7 +67,7 @@ export default function MobileHome() {
           </div>
           <div className={styles.mobSocial}>
             <div className={styles.mobSocialIcon}>
-              <a href="https://twitter.com/ansar_abd">
+              <a target="_blank" href="https://twitter.com/ansar_abd">
                 <img src="twitter.svg"></img>
               </a>
             </div>

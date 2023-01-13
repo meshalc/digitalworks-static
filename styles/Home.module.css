@@ -203,7 +203,7 @@
 
 @keyframes waveMobile {
   0% {
-    top: 5px;
+    top: 10px;
     opacity: 1;
     background: #888F99;
     backdrop-filter: blur(15px) saturate(3);
@@ -224,7 +224,7 @@
   }
 
   100% {
-    top: 5px;
+    top: 10px;
     opacity: 1;
     /* backdrop-filter: blur(15px) saturate(3); */
     background-attachment: 10px;
@@ -287,7 +287,7 @@
 
 @keyframes waveBlog {
   0% {
-    top: 5px;
+    top: 10px;
     opacity: 1;
     background: #888F99;
     backdrop-filter: blur(15px) saturate(3);
@@ -308,7 +308,7 @@
   }
 
   100% {
-    top: 5px;
+    top: 10px;
     opacity: 1;
     /* backdrop-filter: blur(15px) saturate(3); */
     background-attachment: 10px;
@@ -663,6 +663,10 @@ a.mobActiveNav {
   color: #37BE43;
 }
 
+.caseStudyItem:hover {
+  color: #37BE43;
+}
+
 .caseStudyVector {
   padding-right: 20px;
 }
@@ -955,7 +959,9 @@ h2.classH2 {
 }
 
 .BlogP img{
-  width: 100%;
+  width: 80%;
+  padding: 10px;
+  border-top:  -2px 1px 14px 3px rgba(145, 158, 171, 0.2);;
 }
 
 .BlogPfenix img {
@@ -1076,6 +1082,13 @@ h2.classH2 {
   border-radius: 8px;
 }
 
+.mobBrandImage img {
+  padding: 10px;
+  /* box-shadow: -2px 1px 14px 3px rgba(145, 158, 171, 0.514); */
+}
+
+
+
 .brand {
   display: flex;
   padding-top: 40px;
@@ -1165,6 +1178,7 @@ h2.classH2 {
   font-weight: 400;
   font-size: 20px;
   line-height: 27px;
+  margin-top: 0;
   /* identical to box height */
 
 
@@ -1224,6 +1238,7 @@ h2.classH2 {
 
 .globalLeft img {
   width: auto;
+  box-shadow: -2px 1px 14px 3px rgba(145, 158, 171, 0.2);
 }
 
 .globalRight {

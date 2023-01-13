@@ -54,7 +54,7 @@ export default function MAGRABi() {
                         <br/>
                         <h2 className={styles.classH2}>Agile Delivery Model</h2>
                         <h3>Value Driven <span>Pragmatic Framework</span></h3>
-                        <img src="aa.svg"></img>
+                        <img src="aa.png"></img>
                         <p>
                             Digital works has driven the Product Management, Product Design, Architecture and Operations. Owned and lead the discovery process with the internal/external teams for arriving at a mutually agreed sprint plan. Reviewed digital architecture and advised changes appropriately to ensure efficiency and business value. Provided Product leadership, Product design (UX) recommendations to customers digital team.
                         </p>
@@ -76,12 +76,12 @@ export default function MAGRABi() {
                             {/* <div className={styles.social}> */}
                             {" "}
                             <div className={styles.mobSocialIcon}>
-                                <Link href="https://twitter.com/ansar_abd">
+                                <Link target="_blank" href="https://twitter.com/ansar_abd">
                                     <img src="twitter.svg"></img>
                                 </Link>
                             </div>
                             <div className={styles.mobSocialIcon}>
-                                <Link href="https://www.linkedin.com/company/digitalworks-group/">
+                                <Link target="_blank" href="https://www.linkedin.com/company/digitalworks-group/">
                                     <img src="linkedin.svg"></img>
                                 </Link>
                             </div>

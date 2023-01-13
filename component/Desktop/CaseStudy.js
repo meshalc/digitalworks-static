@@ -22,7 +22,7 @@ export default function CaseStudy() {
               <h1>Case Study</h1>
               <div className={styles.mobcaseStudyItems}>
                 <Link href="devops">
-                  <div className={styles.mobcaseStudyItem}>
+                  <div className={styles.caseStudyItem}>
                     {" "}
                     <div className={styles.caseStudyVector}>
                       <img src="Vector.svg"></img>
@@ -32,7 +32,7 @@ export default function CaseStudy() {
                 </Link>
                 <div className={styles.underline}></div>
                 <Link href="magrabi">
-                  <div className={styles.mobcaseStudyItem}>
+                  <div className={styles.caseStudyItem}>
                     <div className={styles.caseStudyVector}>
                       <img src="Vector.svg"></img>
                     </div>
@@ -41,7 +41,7 @@ export default function CaseStudy() {
                 </Link>
                 <div className={styles.underline}></div>
                 <Link href="fenix-outdoor">
-                  <div className={styles.mobcaseStudyItem}>
+                  <div className={styles.caseStudyItem}>
                     <div className={styles.caseStudyVector}>
                       <img src="Vector.svg"></img>
                     </div>
@@ -91,7 +91,7 @@ export default function CaseStudy() {
           <div className={styles.animation}>
             <Anim />
           </div>
-          <div className={styles.mobFooter}>
+          <div className={styles.footer}>
             <span>All rights reserved © Digitalworks.co</span>
           </div>
         </div>

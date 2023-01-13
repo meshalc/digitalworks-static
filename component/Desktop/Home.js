@@ -56,7 +56,7 @@ export default function HomeMain() {
             </div>
           </div>
           <div className={styles.animation}><Anim /></div>
-          <div className={styles.mobFooter}>
+          <div className={styles.footer}>
             <span>All rights reserved © Digitalworks.co</span>
           </div>
         </div>

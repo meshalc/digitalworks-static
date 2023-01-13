@@ -111,11 +111,17 @@ export default function FenixOutDoor() {
               Sales Representatives can also place orders on behalf of
               resellers.
             </p>
+            <br/>
             <img src="/Screenshot 2022-11-24 at 5.47.10 PM.png" />
+            <br/>
             <img src="/Screenshot 2022-11-24 at 5.47.20 PM.png" />
+            <br/>
             <img src="Screenshot 2022-11-24 at 5.47.28 PM.png" />
+            <br/>
             <img src="/Screenshot 2022-11-24 at 5.47.35 PM.png" />
+            <br/>
             <img src="Screenshot 2022-11-24 at 5.47.42 PM.png" />
+            <br/>
             <p>
               <b>Digital works Team</b> helped Fenix outdoor to{" "}
               <b>
@@ -131,7 +137,9 @@ export default function FenixOutDoor() {
               and customer Enritchment.
             </p>
             <img src="/Screenshot 2022-11-24 at 5.47.49 PM.png" />
+            <br/>
             <img src="/Screenshot 2022-11-24 at 5.47.55 PM.png" />
+            <br/>
             <img src="/Screenshot 2022-11-24 at 5.48.02 PM.png" />
           </div>
 
